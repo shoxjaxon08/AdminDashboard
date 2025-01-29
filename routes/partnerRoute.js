@@ -8,6 +8,8 @@ const router = express.Router();
 router.post('/register', createPartner);
 
 // Partner login qilish (authsiz)
+const a=  5*4;
+const f = 4;
 router.post('/login', partnerLogin);
 
 // Partnerni olish (partner rolini tekshirgan holda)
